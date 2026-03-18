@@ -1,44 +1,34 @@
-# EX 7 C Program to Print binary number pattern of n rows and m columns using loop.
+# EX 7 C Program to Print a right triangle star Pattern
+## DATE:17-03-2026
 ## AIM:
-To write a C Program to Print binary number pattern of n rows and m columns using loop.
+To write a C Program to Print a right triangle star Pattern
 
-## Algorithm
-1. Read number of rows and columns from the user.
-2. Use an outer loop to repeat for each row.
-3. Inside the outer loop, use an inner loop to print '*' for each column.
-4. After each row, print a newline to move to the next row.
-5. End the program.
-
+## Algorithm:
+1. Start. 
+2. Declare the variables i,j,k,n. 
+3. Prompt the user to enter a value. 
+4. Read the value using scanf. 
+5. Enter number of rows and columns. 
+6. End.   
 
 ## Program:
-```
-/*
-Program to Print binary number pattern of n rows and m columns using loop.
-Developed by: Sai Ranjani K
-RegisterNumber:  212222060210
-#include <stdio.h>
-int main() 
-{
-    int a,b,i,j;
-    scanf("%d %d",&a,&b);
-    for(i=0;i<a;i++)
-    {
-      for(j=0;j<b;j++)
-      {
-         printf("*");
-      }
-      printf("\n");
-    }
-    
-    return 0;
+```c program
+#include <stdio.h> 
+int main() { 
+    int i, j, rows; 
+    scanf("%d", &rows); 
+    for (i = 1; i <= rows; i++) { 
+        for (j = 1; j <= i; j++) { 
+            printf("*"); 
+        } 
+        printf("\n"); 
+    }    return 0; 
 }
-*/
 ```
 
 ## Output:
 
-
-![image](https://github.com/user-attachments/assets/ea112e81-375c-43ef-8a98-0458526824ff)
+![image](https://github.com/user-attachments/assets/a0881776-fcc9-4f96-a441-2f3cc4d800e1)
 
 
 ## Result:
