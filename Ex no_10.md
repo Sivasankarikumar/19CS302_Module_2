@@ -14,7 +14,7 @@ To write a C program to find the factorial of a given number using a function wi
 8. Read `num` from user  
 9. Call `factorial(num)` and store in `result`  
 10. Print `result`  
-11. End 
+11. End.
 
 ## Program:
 ```c program
