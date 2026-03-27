@@ -14,7 +14,7 @@ To write a C program to find the sum of odd digits using do while loop.
    - Remove last digit  
 6. Repeat until `num == 0`  
 7. Print `sum`  
-8. End  
+8. End.
 
 ## Program:
 ```c program
