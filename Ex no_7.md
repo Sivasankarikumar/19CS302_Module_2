@@ -10,7 +10,6 @@ To write a C Program to Print a right triangle star Pattern
 4. Read the value using scanf. 
 5. Enter number of rows and columns. 
 6. End.   
-
 ## Program:
 ```c program
 #include <stdio.h> 
