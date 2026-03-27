@@ -9,7 +9,7 @@ To write a C program to perform multiplication and division of two numbers using
 3. Prompt the user to enter a value. 
 4. Read the value using scanf. 
 5. Enter number for multiplication and division. 
-6. End.    
+6. End.   
 
 ## Program:
 ```c program
